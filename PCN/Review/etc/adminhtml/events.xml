@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="review_save_after">
+        <observer name="pcn_review_admin_product_review_save_after" instance="PCN\Review\Observer\AdminProductReviewSaveAfter" />
+    </event>
+    <event name="review_delete_before">
+        <observer name="pcn_review_admin_product_review_delete_before" instance="PCN\Review\Observer\AdminProductReviewDeleteBefore" />
+    </event>
+</config>

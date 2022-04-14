@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Review\Block\Form" type="PCN\Review\Block\Form" />
+    <preference for="Magento\Review\Block\Adminhtml\Edit\Form" type="PCN\Review\Block\Adminhtml\Edit\Form" />
+    <preference for="Magento\Review\Block\Product\View\ListView" type="PCN\Review\Block\Product\View\ListView" />
+</config>

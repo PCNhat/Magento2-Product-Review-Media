@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <referenceContainer name="product.info.details">
+                <referenceBlock name="product.info.product_additional_data">
+                    <action method="setTemplate">
+                        <argument name="template" xsi:type="string">PCN_Review::product/view/list.phtml</argument>
+                    </action>
+                </referenceBlock>
+            </referenceContainer>
+        </referenceContainer>Ï
+    </body>
+</page>
+
+
