@@ -36,5 +36,10 @@ Here are some of the salient features for the extension:
    ```
    php bin/magento setup:static-content:deploy
    ```
+4. Some Demo images
+![alt text](DemoImages/1.png)
+![alt text](DemoImages/2.png)
+![alt text](DemoImages/3.png)
 
 _Please feel free to contact me at phamcongnhat1415@gmail.com if you have any questions. Thank you!_
+
